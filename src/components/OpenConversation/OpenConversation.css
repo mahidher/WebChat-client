@@ -1,0 +1,57 @@
+.convo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.convo-messages {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.convo-sendmessage {
+  height: 10%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.convo-sendmessage textarea {
+  width: 100%;
+}
+
+.convo-sendmessage input {
+  width: 100px;
+
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.convo-message-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.convo-message-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text {
+  /* display: flex; */
+  background: brown;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  margin: 5px;
+  background: #0061a8;
+  color: white;
+}

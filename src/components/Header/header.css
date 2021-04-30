@@ -1,0 +1,15 @@
+.navbar {
+  height: 10vh;
+  background: #f7ea00;
+  color: black;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  font-size: 25px;
+}

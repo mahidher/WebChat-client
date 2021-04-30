@@ -1,0 +1,63 @@
+.home-grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.home-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 83%;
+  height: 100%;
+  margin: auto;
+}
+
+.home-content h1 {
+  font-size: 70px;
+  width: 60%;
+  line-height: 1.2;
+  padding-bottom: 60px;
+}
+
+.home-content input[type="text"] {
+  font-size: 16px;
+  margin: 8px 0px;
+  width: 50%;
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid;
+}
+.home-content input[type="text"]:focus {
+  outline: none;
+}
+
+.home-content input[type="submit"] {
+  margin: 25px 0px;
+  width: 100px;
+  height: 30px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.create-id {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .create-id:hover {
+  cursor: pointer;
+} */
